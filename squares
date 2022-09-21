@@ -1,0 +1,10 @@
+from turtle import *
+import turtle
+for _ in range(16):
+    turtle.forward(200)
+    turtle.left(180)
+    turtle.forward(200)
+    turtle.left(45)
+    for _ in range(4):
+        turtle.forward(100)
+        turtle.left(90)
